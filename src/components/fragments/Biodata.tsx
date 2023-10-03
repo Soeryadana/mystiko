@@ -1,5 +1,3 @@
-import React from "react";
-
 const Biodata = () => {
   return (
     <section className="mx-32 mb-10 p-20 bg-[#493e9c] rounded-xl text-white grid grid-cols-10 ">

@@ -1,4 +1,3 @@
-import React from "react";
 import Hero from "../components/fragments/Hero";
 import About from "../components/fragments/About";
 import Places from "../components/fragments/Places";
