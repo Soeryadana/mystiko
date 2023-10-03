@@ -5,7 +5,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/index.tsx";
 import Encrypt from "./pages/encrypt.tsx";
 import Decrypt from "./pages/decrypt.tsx";
-import Steganography from "./pages/lsb.tsx";
 import Navbar from "./components/fragments/Navbar.tsx";
 import Footer from "./components/fragments/Footer.tsx";
 
@@ -21,10 +20,6 @@ const router = createBrowserRouter([
   {
     path: "/decrypt",
     element: <Decrypt />,
-  },
-  {
-    path: "/lsb",
-    element: <Steganography />,
   },
 ]);
 
