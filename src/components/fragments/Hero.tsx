@@ -6,12 +6,11 @@ const Hero = () => {
 
   return (
     <section
-      className="grid grid-cols-2 h-[150%] bg-cover pt-28 pb-32"
-      style={{ backgroundImage: "url(/image/Frame-2.png)" }}
+      className="bg-[url('/image/bg-sm.png')] lg:bg-[url('/image/bg-lg.png')] grid grid-cols-1  lg:grid-cols-2 h-[150%] bg-cover pt-28 pb-32"
     >
-      <div className="m-6 mx-24">
+      <div className="m-6 mx-18 lg:mx-24">
         <div className="text-white">
-          <h1 className="font-medium text-5xl mb-5">
+          <h1 className="font-medium text-5xl lg:text-5xl mb-5">
             {" "}
             Secure your messages with cryptography and steganography!
           </h1>
@@ -20,10 +19,10 @@ const Hero = () => {
             messages.
           </p>
         </div>
-        <div>
+        <div className="flex justify-center lg:justify-start">
           <Button
             onClick={() => navigate("/encrypt")}
-            className="bg-[#5c52af] font-bold text-white text-2xl py-5 px-12 rounded-full"
+            className="bg-[#5c52af] font-bold text-white text-2xl py-5 px-12 rounded-full w-full lg:w-auto"
           >
             GET STARTED
           </Button>

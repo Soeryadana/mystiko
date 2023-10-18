@@ -9,7 +9,7 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ img, title, children, link}) => {
   return (
-    <div className="flex col-span-4 bg-[#f6e8ff] rounded-xl p-5 mx-3">
+    <div className="flex col-span-4 bg-[#f6e8ff] rounded-xl p-5 mx-3 mb-7">
       <div>
         <img src={img} alt="" className="w-[70%]"/>
       </div>

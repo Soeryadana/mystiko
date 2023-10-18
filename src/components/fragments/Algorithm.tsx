@@ -1,7 +1,7 @@
 import Card from "../elements/Card";
 const Algorithm = () => {
   return (
-    <section className="container mx-auto p-20 grid grid-cols-12">
+    <section className="container mx-auto p-10 lg:p-20 grid grid-cols-1 lg:grid-cols-12">
       <Card
         img="/image/vigenere.png"
         title="Vigenère Cipher"

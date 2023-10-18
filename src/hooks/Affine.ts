@@ -1,11 +1,4 @@
-function modInverse(a: number, m: number): number {
-  for (let x: number = 1; x < m; x++) {
-    if ((a * x) % m === 1) {
-      return x;
-    }
-  }
-  return 1;
-}
+import { checkInverse } from "./CheckInverse";
 
 export const useAffine = (
   vigenereCipher: string,
@@ -15,7 +8,7 @@ export const useAffine = (
 ): string => {
   const base: number = 32;
   const m: number = 95;
-  const aInverse: number = modInverse(a, m);
+  const aInverse: number = checkInverse(a, m);
   const textLength: number = vigenereCipher.length;
 
   if (option === 1) {
