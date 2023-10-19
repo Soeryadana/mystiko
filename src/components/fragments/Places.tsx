@@ -3,8 +3,8 @@ import SectionTitle from "../elements/SectionTitle";
 const Places = () => {
   return (
     <section className=" ">
-      <div className="container mx-auto  grid grid-cols-1 lg:grid-cols-12  px-20">
-        <div className="col-span-7 mt-28">
+      <div className="container mx-auto  grid grid-cols-1 lg:grid-cols-12 px-8 lg:px-20">
+        <div className="col-span-7 mt-20">
           <SectionTitle img="/image/everywhere.png" alt="mystiko">
             Anywhere Anytime
           </SectionTitle>

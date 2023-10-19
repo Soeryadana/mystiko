@@ -3,7 +3,7 @@ import SectionTitle from "../elements/SectionTitle";
 const About = () => {
   return (
     <section className=" bg-[#effdff] ">
-      <div className="container mx-auto grid grid-cols-1 lg:grid-cols-12 p-20">
+      <div className="container mx-auto grid grid-cols-1 lg:grid-cols-12 p-8 lg:p-20">
         <div className="col-span-5 flex justify-center">
           <img src="/image/626-1.png" alt="" className="w-full md:w-[70%] lg:w-full" />
         </div>
